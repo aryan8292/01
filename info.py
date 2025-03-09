@@ -31,7 +31,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 
 PICS = (environ.get('PICS' ,'https://graph.org/file/040c13521abcaf21a4adb.jpg https://graph.org/file/d3ce0fbe68fad09c3cfd1.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://te.legra.ph/file/a27dc8fe434e6b846b0f8.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://telegram.me/shaho_movie_request")
+MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/ary_moviex")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 
@@ -92,8 +92,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'mynewfiles')
 
 
 ASKFSUBINGRP = bool(environ.get('ASKFSUBINGRP', True))
-MIDVERIFY = bool(environ.get('MIDVERIFY', True))
-VERIFY = bool(environ.get('VERIFY', True))
+MIDVERIFY = bool(environ.get('MIDVERIFY', False))
+VERIFY = bool(environ.get('VERIFY', False))
 JOINREQ_MSG = bool(environ.get('JOINREQ_MSG', False))
 
 
@@ -122,9 +122,9 @@ THIRD_SHORTLINK_API = environ.get('THIRD_SHORTLINK_API', '8976926e7901119f7592ec
 
 
 #verify tutorial 
-VERIFY_TUTORIAL = environ.get('FIRST_VERIFY_TUTORIAL', 'https://t.me/how2dow/79')
-SECOND_VERIFY_TUTORIAL = environ.get('SECOND_VERIFY_TUTORIAL', 'https://t.me/how2dow/79')
-THIRD_VERIFY_TUTORIAL = environ.get('THIRD_VERIFY_TUTORIAL', 'https://t.me/how2dow/79')
+VERIFY_TUTORIAL = environ.get('FIRST_VERIFY_TUTORIAL', 'https://t.me/ary_moviex')
+SECOND_VERIFY_TUTORIAL = environ.get('SECOND_VERIFY_TUTORIAL', 'https://t.me/ary_moviex')
+THIRD_VERIFY_TUTORIAL = environ.get('THIRD_VERIFY_TUTORIAL', 'https://t.me/ary_moviex')
 
 
 
@@ -139,9 +139,9 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://telegram.me/+HldvnSK5kV9hMmFl')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://telegram.me/+JlRNm8AVBpFhNGY1')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how2dow/55')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/ary_moviex')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/ary_moviex')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/ary_moviex')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001517345433'))
@@ -153,7 +153,7 @@ PM_MSG_LOG_CHANNEL = int(environ.get('PM_MSG_LOG_CHANNEL', '-1001517345433'))
 LOG_CHANNEL_SESSIONS_FILES = int(environ.get('LOG_CHANNEL_SESSIONS_FILES', '-1001517345433'))
 
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1001517345433'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+HRKp-WKYjlpkY2Rl')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'ary_moviex')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
